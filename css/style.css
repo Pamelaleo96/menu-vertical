@@ -1,0 +1,43 @@
+/*header {
+    outline: 1px solid blue;
+    width: 100%;
+    height: 80px;
+    background:rgb(214, 211, 211);
+    text-align: left;
+}
+
+header h1 {
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+    font-family: sans-serif;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}*/
+
+/*#content-menu {
+   outline: 1px solid blue; Permite ver que tipo de espacio ocupa cada elemento ya sea en bloque o inline
+   width: 400px*/
+
+
+ul {
+    outline: 1px solid blue;
+    list-style: none; /*Quitar indices o estilode la lista ordenadas*/
+    margin: 0px; /*Quitar el espacio del indice quitado*/
+    padding: 0px; /*Para asegurarnos que en otro navegador reconoscan utilizamos margin y padding 0*/
+    width: 160px; /*establecemos el ancho del bloque*/
+    background: rgb(194, 188, 188);
+    
+}
+
+li {
+    outline: 1px solid green;
+}
+
+a {
+    outline: 1px solid red; /*ayuda visual*/
+    display: block; /*Para darle click fuera del contenido inline Cambiamos el valor por defecto de la etiqueta inline y la cambiamos a bloque para poder modificar*/
+    text-decoration: none; /*quitamos el subrayado azul del texto*/
+    color: black; /*Le damos color a nuestro texto*/
+}

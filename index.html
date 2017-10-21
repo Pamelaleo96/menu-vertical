@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú vertical</title>
+    <!--link:Elemento donde especificamos la relación entre el documento actual(HTML) y un recurso externo(style.css)-->
+        <!--rel: Este atributo especifica la relación entre el documento actual y el documento / recurso vinculado.-->
+        <!--Href: Este atributo especifica la URL del recurso enlazado. (La URL debe ser absoluta() o relativa().)-->
+            <!--URL absoluta: http://www.ejemplo.com/ruta1/ruta2/pagina2.html-->
+            <!--URL relativa: /ruta1/ruta2/pagina2.html-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!--Creamos el titulo de nuestra lista ordenada-->
+        <h1>Vertical Menú</h1>         
+    </header>
+
+    <div class="content-menu">  
+        <!--Creamos listas ordenadas para nuestra barra de navegacion lateral-->
+        <ul>
+            <!--A cada elemento lista anidamos un elemento anchor (<a>)-->
+                <!--El elemento <a>: crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, 
+                    direcciones de correo, o cualquier otra URL.-->
+                    <!--href: Este atributo Indica la URL a donde deseas redirigir-->
+                    <!--target: Este atributo Fuerza que el documento referenciado por el enlace, sea mostrado en una nueva ventana del navegador.-->
+            <li><a href="http://laboratoria.la/" target="_blank" class="text">Inicio</a></li>
+            <li><a href="" target="_blank" class="text">Sobre mí</a></li>
+            <li><a href="" target="_blank" class="text">Portafolio</a></li>
+            <li><a href="" target="_blank" class="text">Contacto</a></li>
+            <li><a href="" target="_blank" class="text">Noticia</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>
