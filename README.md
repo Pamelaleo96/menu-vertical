@@ -7,7 +7,7 @@ Tomar en cuenta los siguientes requisitos para maquetar un menú de navegacion v
   * La primera palabra o elemento tenga un background mostaza y el color de texto blanco, a diferencia del resto de opciones del navegador.
   * El resto de opciones verticales tenga un background gris y color de texto negro.
   * Cuando el usuario coloca el puntero sobre algún elemento(opción del navegador), se muestre un background gris transparente.
-  * Cuando el usuario presiona el botón del ratón sobre la lista hasta el momento en que lo suelta, el background cambie un color negro y el color del texto cambie a blanco (Haciendo referencia que el usuario a escojido esa opción).
+  * Cuando el usuario presiona el botón del ratón sobre la lista, hasta el momento en que lo suelta, el background cambie un color negro y el color del texto cambie a blanco (Haciendo referencia que el usuario a escojido esa opción).
 
 ### Pondremos en práctica lo siguiente:
 1. Aplicaremos **selectores:**
@@ -19,7 +19,7 @@ Tomar en cuenta los siguientes requisitos para maquetar un menú de navegacion v
     * Padding **(relleno)**.
     * Margin **(margen)**
 
-3. Aplicaremos la __"propiedad de los elementos de caja""__
+3. Aplicaremos la __"propiedad de los elementos de caja"__
     * display **(por bloques)**
     * background-color **(Color al bloque)**
     * color **(color de texto)**
@@ -31,7 +31,7 @@ Tomar en cuenta los siguientes requisitos para maquetar un menú de navegacion v
 
 4. Aplicaremos __*Estados de los enlaces*__ pseudo-clase.
     * Hover   **(cuando el usuario se desplaza sobre ella)**
-    * Active  **(cuando el usuario hace clic en el momento)**
+    * Active  **(cuando el usuario pulse clic en el momento)**
 
 ### Herramientas Utilizadas:
 1. HTML
@@ -40,4 +40,4 @@ Tomar en cuenta los siguientes requisitos para maquetar un menú de navegacion v
 ### Objetivo final:
     * Imagen final del menú vertical:
 
-![recursos](assets/imgs/posicionandoCajas.png)
+![recursos](assets/imgs/menu-vertical.png)
